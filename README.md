@@ -1,5 +1,5 @@
 # DC-Proxy-Script
-**ONLY WORKING ON UBUNTU 20"
+**ONLY WORKING ON UBUNTU 20**
 
 to install the script, simply download the files on you server via winscp, after that open up putty, and run the command "bash install.sh" , to start the install, it will take
 20-30 minutes.
