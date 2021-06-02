@@ -1,8 +1,5 @@
 #!/bin/bash
 clear
-MYSQLDB="squiddb"
-MYSQLUSER="squid"
-PASSWDMASTER="/etc/squid/squid.passwd"
 PS3="Please enter your choice: "
 options=("Create User" "Attach ip to user" "Show Proxies" "Delete proxy" "Block site" "unblock domain" "change proxy expiration" "Show users" "Delete user" "Made By Hollando#3086")
 select opt in "${options[@]}"
