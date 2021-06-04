@@ -38,8 +38,6 @@ forwarded_for delete
 via off
 
 
-
-logformat squid %ts.%03tu %6tr %>a %Ss/%03>Hs %<st %rm %ru %un %Sh/%<A %mt
 access_log /var/log/squid/access.log squid
 
 cache deny all
